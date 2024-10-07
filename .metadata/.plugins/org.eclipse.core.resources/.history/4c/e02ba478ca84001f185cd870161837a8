@@ -1,0 +1,20 @@
+package buclefor11;
+import java.util.Scanner;
+
+public class BucleFor11 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Introduzca su número");
+		Scanner entrada = new Scanner(System.in);
+		int contador = 1;
+		
+		for(int numero = entrada.nextInt();numero<contador;contador++)
+		{
+			System.out.println(contador);
+		}
+		
+
+	}
+
+}

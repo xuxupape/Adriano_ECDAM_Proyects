@@ -1,0 +1,22 @@
+package ifejer2;
+
+import java.util.Scanner;
+
+public class Ifejer2 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Bienvenido, este programa te dirá que asignatura toca a primera en el día de la semana que introduzcas");
+		
+		System.out.println("Introduce un día de la semana");
+		
+		Scanner hora = new Scanner(System.in);
+		
+		int horaactual = hora.nextInt();
+		
+		if (horaactual >= 6 && horaactual<=12)
+			System.out.println("Buenos dias");
+
+	}
+
+}

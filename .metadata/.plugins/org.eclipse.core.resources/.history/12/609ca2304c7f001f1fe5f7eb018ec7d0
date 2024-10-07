@@ -1,0 +1,19 @@
+package ifejer3;
+import java.util.Scanner;
+
+public class Ifejer3 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Introduce el número del día de la semana");
+		
+		int num;
+		Scanner numero = new Scanner(System.in);
+		num = numero.nextInt();
+		
+		if (numero = 1)
+			System.out.println();
+
+	}
+
+}

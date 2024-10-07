@@ -1,0 +1,20 @@
+package bucle1;
+import java.util.Scanner;
+
+public class Bucle1 {
+
+	public static void main(String[] args) {
+		
+		int multiplicador = 0;
+		int multiplicado = 5;
+		
+		while (multiplicado <= 100)
+		{
+			int multi = multiplicador*multiplicado;
+			System.out.println(multi);
+			multiplicador++;
+		}
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package buclefor9;
+import java.util.Scanner;
+
+public class Buclefor9 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Escribe tu numero a factorizar");
+		Scanner entrada = new Scanner(System.in);
+		int f = 0 ;
+		f=entrada.nextInt();
+		int contador;
+		int contador1=0;
+		int factorial = 0;
+		for(contador=0; contador1<f ;contador++){
+			
+			factorial = (contador*f)+factorial;
+			f--;
+		}
+		
+		System.out.println(factorial);
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package ifsemanal;
+import java.util.Scanner;
+
+public class Ifsemanal {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Bienvenido, este programa te dirá que asignatura toca a primera en el día de la semana que introduzcas");
+		
+		System.out.println("Introduce un día de la semana");
+		
+		Scanner dia = new Scanner(System.in);
+		
+		int diasem = dia.nextInt();
+		int rojo = 1;
+		
+		
+		if (diasem == 1) 
+			System.out.println("Toca Fol"); 
+		
+
+	}
+
+}

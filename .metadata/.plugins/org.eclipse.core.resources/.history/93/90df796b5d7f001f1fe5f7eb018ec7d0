@@ -1,0 +1,38 @@
+package buble7;
+import java.util.Scanner;
+public class Bucle7 {
+
+	public static void main(String[] args) {
+		
+		int contador = 0;
+		int altura;
+		int contador2 = 2;
+		String simbolo;
+		System.out.println("Introduce la altura de la piramide");
+		Scanner entrada1 = new Scanner(System.in);
+		altura = entrada1.nextInt();
+		System.out.println("Introduce un caracter");
+		Scanner entrada2 = new Scanner(System.in);
+		simbolo = entrada2.next();
+		
+		while (simbolo.length()!=1) {
+			System.out.println("solo debes introducir un caracter");
+		System.out.println("Introduce un caracter");
+		entrada2 = new Scanner(System.in);
+		simbolo = entrada2.next();
+	}
+		while (altura != contador) 
+		{
+			while(contador2 != altura) {
+				System.out.print(" ");
+				contador2++;
+			}
+		System.out.print(simbolo);	
+				
+			
+		}
+		
+		
+	}
+
+}
