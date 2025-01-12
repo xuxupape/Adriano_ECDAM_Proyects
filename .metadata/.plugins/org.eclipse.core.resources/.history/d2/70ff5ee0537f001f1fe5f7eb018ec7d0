@@ -1,8 +1,0 @@
-package bucle6;
-import java.util.Scanner;
-
-public class Bucle6 {
-	
-	System.out.println("Sfe");
-
-}
