@@ -43,10 +43,7 @@ public class PC {
 	}
 	
 	public void altaPC(PC p) {
-		
-		int i = 
-		
-		 for()
+
 		
 	}
 	
